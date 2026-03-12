@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noEmit": false,
+    "types": ["node"] // 让 TS 识别 Node.js 内置模块
+  },
+  "include": ["vite.config.ts"]
+}
